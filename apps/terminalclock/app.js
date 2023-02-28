@@ -116,7 +116,7 @@
   let drawTime = function(now, pos){
     let h = now.getHours();
     let m = now.getMinutes();
-    let time = ">" + (""+h).substr(-2) + ":" + ("0"+m).substr(-2);
+    let time = ">" + ("0"+h).substr(-2) + ":" + ("0"+m).substr(-2);
     drawLine(time, pos);
   };
 
